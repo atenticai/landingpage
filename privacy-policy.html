@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="th" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>นโยบายความเป็นส่วนตัว | AirClean Pro</title>
+<meta name="description" content="นโยบายความเป็นส่วนตัวของ AirClean Pro — วิธีที่เราจัดเก็บ ใช้ และปกป้องข้อมูลส่วนบุคคลของคุณตาม PDPA">
+<meta name="robots" content="noindex, follow">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>❄️</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;600;700&family=Prompt:wght@700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --sky:#0ea5e9;--sky-dark:#0284c7;--night:#0a0f1e;--navy:#1e3a5f;
+  --white:#ffffff;--gray:#6b7280;--gray-light:#f3f4f6;
+  --serif:'Prompt',sans-serif;--sans:'Sarabun',sans-serif;
+  --r:12px;--r-lg:20px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;font-size:16px;overflow-x:hidden}
+body{font-family:var(--sans);background:#f8fafc;color:var(--night);-webkit-font-smoothing:antialiasedoverflow-x:hidden;}
+a{color:var(--sky-dark);text-decoration:underline;text-underline-offset:3px}
+a:hover{color:var(--sky)}
+
+/* Header */
+.site-header{
+  background:var(--night);
+  padding:18px 20px;
+  border-bottom:1px solid rgba(14,165,233,0.2);
+  position:sticky;top:0;z-index:100;
+}
+.header-inner{max-width:900px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.brand{font-family:var(--serif);font-size:20px;font-weight:800;color:var(--sky);text-decoration:none}
+.back-link{font-size:13px;color:rgba(255,255,255,0.6);text-decoration:none;display:flex;align-items:center;gap:6px}
+.back-link:hover{color:#fff}
+
+/* Content */
+.page-wrap{max-width:900px;margin:0 auto;padding:48px 20px 80px}
+.page-title{
+  font-family:var(--serif);
+  font-size:clamp(26px,4vw,40px);font-weight:800;
+  color:var(--night);margin-bottom:8px;line-height:1.2;
+}
+.page-meta{font-size:13px;color:var(--gray);margin-bottom:40px;padding-bottom:24px;border-bottom:1px solid #e5e7eb}
+.page-meta strong{color:var(--night)}
+
+.intro-box{
+  background:linear-gradient(135deg,#eff6ff,#dbeafe);
+  border:1px solid #bfdbfe;border-radius:var(--r-lg);
+  padding:24px 28px;margin-bottom:40px;
+}
+.intro-box p{font-size:15px;color:var(--navy);line-height:1.8}
+.intro-box strong{color:var(--sky-dark)}
+
+h2.sec{
+  font-family:var(--serif);font-size:20px;font-weight:800;
+  color:var(--night);margin:40px 0 14px;
+  padding-left:14px;
+  border-left:4px solid var(--sky);
+  line-height:1.3;
+}
+h3.sub{font-size:15px;font-weight:700;color:var(--navy);margin:20px 0 8px}
+
+p.body{font-size:14.5px;color:#374151;line-height:1.85;margin-bottom:12px}
+ul.list{list-style:none;margin:8px 0 16px;display:flex;flex-direction:column;gap:8px}
+ul.list li{
+  font-size:14px;color:#374151;line-height:1.75;
+  padding:10px 14px;
+  background:#fff;border:1px solid #e5e7eb;border-radius:var(--r);
+  display:flex;gap:10px;align-items:flex-start;
+}
+ul.list li::before{content:'•';color:var(--sky);font-weight:900;flex-shrink:0;margin-top:2px}
+
+.rights-grid{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:14px;margin:16px 0;
+}
+.right-card{
+  background:#fff;border:1.5px solid #e5e7eb;border-radius:var(--r);
+  padding:18px;transition:border-color .2s;
+}
+.right-card:hover{border-color:var(--sky)}
+.right-card-icon{font-size:22px;margin-bottom:8px}
+.right-card-title{font-family:var(--serif);font-size:14px;font-weight:800;color:var(--night);margin-bottom:4px}
+.right-card-desc{font-size:12.5px;color:var(--gray);line-height:1.65}
+
+.contact-box{
+  background:var(--night);border-radius:var(--r-lg);
+  padding:28px;margin-top:40px;
+  display:flex;gap:20px;align-items:flex-start;flex-wrap:wrap;
+}
+.contact-box-icon{font-size:32px;flex-shrink:0}
+.contact-box h3{font-family:var(--serif);font-size:18px;font-weight:800;color:#fff;margin-bottom:10px}
+.contact-box p{font-size:13.5px;color:rgba(255,255,255,0.7);line-height:1.75}
+.contact-box a{color:var(--sky)}
+
+footer.page-footer{
+  text-align:center;padding:28px 20px;
+  border-top:1px solid #e5e7eb;
+  font-size:12px;color:var(--gray);margin-top:40px;
+}
+footer.page-footer a{color:var(--sky-dark);margin:0 8px}
+@media (max-width:640px){
+.rights-grid{grid-template-columns:1fr}
+.page-wrap{padding:32px 14px 60px}
+.intro-box{padding:18px 16px}
+.contact-box{padding:20px 16px}
+}
+@media (max-width:480px){
+.data-table{font-size:12px}
+.data-table th,.data-table td{padding:10px 12px}
+}</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="brand">❄️ AirClean Pro</a>
+    <a href="index.html" class="back-link">← กลับหน้าหลัก</a>
+  </div>
+</header>
+
+<main class="page-wrap">
+
+  <h1 class="page-title">นโยบายความเป็นส่วนตัว</h1>
+  <p class="page-meta">
+    <strong>มีผลบังคับใช้:</strong> 1 มกราคม 2568 &nbsp;|&nbsp;
+    <strong>ปรับปรุงล่าสุด:</strong> 1 มกราคม 2568 &nbsp;|&nbsp;
+    <strong>เวอร์ชัน:</strong> 1.0
+  </p>
+
+  <div class="intro-box">
+    <p>บริษัท แอร์คลีน พรีเมียม จำกัด ("AirClean Pro", "เรา") ให้ความสำคัญอย่างยิ่งต่อการคุ้มครองข้อมูลส่วนบุคคลของท่าน นโยบายนี้อธิบายว่าเราเก็บรวบรวม ใช้ เปิดเผย และปกป้องข้อมูลส่วนบุคคลของท่านอย่างไร <strong>ตาม พ.ร.บ. คุ้มครองข้อมูลส่วนบุคคล พ.ศ. 2562 (PDPA)</strong></p>
+  </div>
+
+  <h2 class="sec">1. ข้อมูลที่เราเก็บรวบรวม</h2>
+  <h3 class="sub">1.1 ข้อมูลที่ท่านให้แก่เราโดยตรง</h3>
+  <ul class="list">
+    <li>ชื่อและนามสกุล</li>
+    <li>หมายเลขโทรศัพท์</li>
+    <li>ที่อยู่สำหรับการให้บริการ</li>
+    <li>ข้อมูลเกี่ยวกับเครื่องแอร์และแพ็คเกจที่สนใจ</li>
+    <li>ประวัติการจองและการใช้บริการ</li>
+  </ul>
+  <h3 class="sub">1.2 ข้อมูลที่เราเก็บโดยอัตโนมัติ (หลังได้รับความยินยอม)</h3>
+  <ul class="list">
+    <li>ข้อมูลการใช้งานเว็บไซต์ผ่าน Google Analytics (IP address, เบราว์เซอร์, หน้าที่เข้าชม)</li>
+    <li>คุกกี้เพื่อปรับปรุงประสบการณ์การใช้งาน</li>
+    <li>ข้อมูลอุปกรณ์และระบบปฏิบัติการ</li>
+  </ul>
+
+  <h2 class="sec">2. วัตถุประสงค์ในการใช้ข้อมูล</h2>
+  <p class="body">เราใช้ข้อมูลส่วนบุคคลของท่านเพื่อวัตถุประสงค์ดังต่อไปนี้:</p>
+  <ul class="list">
+    <li><strong>การให้บริการ:</strong> ยืนยันการจอง จัดส่งช่าง และติดต่อประสานงาน</li>
+    <li><strong>การปรับปรุงบริการ:</strong> วิเคราะห์ข้อมูลเพื่อพัฒนาคุณภาพงาน</li>
+    <li><strong>การติดต่อสื่อสาร:</strong> แจ้งเตือนนัดหมาย ส่งใบรับประกัน และติดตามผล</li>
+    <li><strong>การตลาด (เฉพาะหากยินยอม):</strong> ส่งข้อเสนอพิเศษและโปรโมชั่น</li>
+    <li><strong>การปฏิบัติตามกฎหมาย:</strong> บันทึกและรายงานตามที่กฎหมายกำหนด</li>
+  </ul>
+
+  <h2 class="sec">3. ฐานทางกฎหมายในการประมวลผล</h2>
+  <ul class="list">
+    <li><strong>สัญญา:</strong> การประมวลผลที่จำเป็นเพื่อให้บริการตามสัญญา</li>
+    <li><strong>ความยินยอม:</strong> การติดตามพฤติกรรมออนไลน์และการตลาดทางตรง</li>
+    <li><strong>ประโยชน์อันชอบธรรม:</strong> การปรับปรุงบริการและป้องกันการฉ้อโกง</li>
+    <li><strong>พันธะทางกฎหมาย:</strong> การปฏิบัติตามกฎหมายและข้อบังคับที่เกี่ยวข้อง</li>
+  </ul>
+
+  <h2 class="sec">4. การเปิดเผยข้อมูลแก่บุคคลที่สาม</h2>
+  <p class="body">เราไม่ขายหรือให้เช่าข้อมูลส่วนบุคคลของท่านแก่บุคคลภายนอก เราอาจเปิดเผยข้อมูลในกรณีต่อไปนี้เท่านั้น:</p>
+  <ul class="list">
+    <li><strong>ผู้ให้บริการ:</strong> ผู้ให้บริการระบบ IT, การชำระเงิน และการสื่อสาร ที่ลงนามสัญญาคุ้มครองข้อมูลกับเรา</li>
+    <li><strong>หน่วยงานราชการ:</strong> เมื่อมีคำสั่งทางกฎหมายหรือเพื่อปกป้องสิทธิ์ของเรา</li>
+    <li><strong>พนักงานของเรา:</strong> เฉพาะที่จำเป็นต้องรู้เพื่อให้บริการแก่ท่าน</li>
+  </ul>
+
+  <h2 class="sec">5. การรักษาความปลอดภัยของข้อมูล</h2>
+  <p class="body">เราใช้มาตรการทางเทคนิคและองค์กรที่เหมาะสมเพื่อปกป้องข้อมูลของท่าน ได้แก่:</p>
+  <ul class="list">
+    <li>การเข้ารหัส SSL/TLS สำหรับการส่งข้อมูลทุกประเภท</li>
+    <li>การจำกัดการเข้าถึงข้อมูลเฉพาะพนักงานที่จำเป็น</li>
+    <li>การตรวจสอบระบบความปลอดภัยอย่างสม่ำเสมอ</li>
+    <li>การฝึกอบรมพนักงานเกี่ยวกับการคุ้มครองข้อมูล</li>
+  </ul>
+
+  <h2 class="sec">6. ระยะเวลาการเก็บรักษาข้อมูล</h2>
+  <ul class="list">
+    <li><strong>ข้อมูลการจองและบริการ:</strong> 5 ปี หลังการให้บริการสิ้นสุด</li>
+    <li><strong>ข้อมูลการติดต่อสื่อสาร:</strong> 3 ปี</li>
+    <li><strong>ข้อมูลการตลาด:</strong> จนกว่าจะถอนความยินยอม หรือ 1 ปีหลังการใช้งานครั้งสุดท้าย</li>
+    <li><strong>ข้อมูลที่กฎหมายกำหนด:</strong> ตามระยะเวลาที่กฎหมายระบุ</li>
+  </ul>
+
+  <h2 class="sec">7. สิทธิ์ของท่านในฐานะเจ้าของข้อมูล</h2>
+  <p class="body">ท่านมีสิทธิ์ดังต่อไปนี้ภายใต้ PDPA:</p>
+  <div class="rights-grid">
+    <div class="right-card">
+      <div class="right-card-icon">👁️</div>
+      <div class="right-card-title">สิทธิ์เข้าถึงข้อมูล</div>
+      <div class="right-card-desc">ขอดูข้อมูลส่วนบุคคลที่เราเก็บไว้เกี่ยวกับท่าน</div>
+    </div>
+    <div class="right-card">
+      <div class="right-card-icon">✏️</div>
+      <div class="right-card-title">สิทธิ์แก้ไขข้อมูล</div>
+      <div class="right-card-desc">ขอแก้ไขข้อมูลที่ไม่ถูกต้องหรือไม่สมบูรณ์</div>
+    </div>
+    <div class="right-card">
+      <div class="right-card-icon">🗑️</div>
+      <div class="right-card-title">สิทธิ์ลบข้อมูล</div>
+      <div class="right-card-desc">ขอลบข้อมูลเมื่อไม่มีความจำเป็นต้องเก็บอีกต่อไป</div>
+    </div>
+    <div class="right-card">
+      <div class="right-card-icon">🚫</div>
+      <div class="right-card-title">สิทธิ์คัดค้าน</div>
+      <div class="right-card-desc">คัดค้านการประมวลผลข้อมูลในบางกรณี</div>
+    </div>
+    <div class="right-card">
+      <div class="right-card-icon">📦</div>
+      <div class="right-card-title">สิทธิ์ในการโอนข้อมูล</div>
+      <div class="right-card-desc">ขอรับข้อมูลในรูปแบบที่อ่านได้ด้วยเครื่อง</div>
+    </div>
+    <div class="right-card">
+      <div class="right-card-icon">↩️</div>
+      <div class="right-card-title">สิทธิ์ถอนความยินยอม</div>
+      <div class="right-card-desc">ถอนความยินยอมได้ตลอดเวลาโดยไม่มีผลต่อการดำเนินการก่อนหน้า</div>
+    </div>
+  </div>
+
+  <h2 class="sec">8. คุกกี้</h2>
+  <p class="body">เว็บไซต์ของเราใช้คุกกี้เพื่อปรับปรุงประสบการณ์ของท่าน รายละเอียดเพิ่มเติมอยู่ใน <a href="cookie-policy.html">นโยบายคุกกี้</a> ท่านสามารถจัดการคุกกี้ได้ผ่านการตั้งค่าเบราว์เซอร์หรือ Banner ที่แสดงเมื่อเข้าเว็บไซต์ครั้งแรก</p>
+
+  <h2 class="sec">9. การเปลี่ยนแปลงนโยบาย</h2>
+  <p class="body">เราอาจปรับปรุงนโยบายนี้เป็นครั้งคราว หากมีการเปลี่ยนแปลงสำคัญ เราจะแจ้งให้ท่านทราบผ่านเว็บไซต์หรือช่องทางการติดต่อที่ท่านให้ไว้ การใช้บริการต่อเนื่องหลังการเปลี่ยนแปลงถือว่าท่านยอมรับนโยบายใหม่</p>
+
+  <h2 class="sec">10. ติดต่อเจ้าหน้าที่คุ้มครองข้อมูล</h2>
+  <div class="contact-box">
+    <div class="contact-box-icon">📬</div>
+    <div>
+      <h3>เจ้าหน้าที่คุ้มครองข้อมูลส่วนบุคคล (DPO)</h3>
+      <p>
+        บริษัท แอร์คลีน พรีเมียม จำกัด<br>
+        กรุงเทพมหานคร<br>
+        โทรศัพท์: <a href="tel:+6620000000">02-000-0000</a><br>
+        Line: <a href="https://lin.ee/aircleaner">@aircleaner</a><br>
+        เวลาทำการ: วันจันทร์–อาทิตย์ 08:00–20:00 น.<br><br>
+        เราจะตอบกลับคำขอของท่านภายใน <strong>30 วัน</strong> นับจากวันที่ได้รับ
+      </p>
+    </div>
+  </div>
+
+</main>
+
+<footer class="page-footer">
+  © 2025 AirClean Pro. All rights reserved. &nbsp;|&nbsp;
+  <a href="index.html">หน้าหลัก</a>
+  <a href="cookie-policy.html">นโยบายคุกกี้</a>
+  <a href="terms.html">ข้อกำหนดการใช้บริการ</a>
+</footer>
+
+</body>
+</html>

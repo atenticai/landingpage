@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="th" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ข้อกำหนดการใช้บริการ | AirClean Pro</title>
+<meta name="description" content="ข้อกำหนดและเงื่อนไขการใช้บริการล้างแอร์บ้านของ AirClean Pro กรุงเทพฯ">
+<meta name="robots" content="noindex, follow">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>❄️</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;600;700&family=Prompt:wght@700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --sky:#0ea5e9;--sky-dark:#0284c7;--night:#0a0f1e;--navy:#1e3a5f;
+  --white:#ffffff;--gray:#6b7280;--green:#10b981;--red:#ef4444;
+  --serif:'Prompt',sans-serif;--sans:'Sarabun',sans-serif;
+  --r:12px;--r-lg:20px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;font-size:16px;overflow-x:hidden}
+body{font-family:var(--sans);background:#f8fafc;color:var(--night);-webkit-font-smoothing:antialiasedoverflow-x:hidden;}
+a{color:var(--sky-dark);text-decoration:underline;text-underline-offset:3px}
+a:hover{color:var(--sky)}
+.site-header{background:var(--night);padding:18px 20px;border-bottom:1px solid rgba(14,165,233,0.2);position:sticky;top:0;z-index:100}
+.header-inner{max-width:900px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.brand{font-family:var(--serif);font-size:20px;font-weight:800;color:var(--sky);text-decoration:none}
+.back-link{font-size:13px;color:rgba(255,255,255,0.6);text-decoration:none;display:flex;align-items:center;gap:6px}
+.back-link:hover{color:#fff}
+.page-wrap{max-width:900px;margin:0 auto;padding:48px 20px 80px}
+.page-title{font-family:var(--serif);font-size:clamp(26px,4vw,40px);font-weight:800;color:var(--night);margin-bottom:8px;line-height:1.2}
+.page-meta{font-size:13px;color:var(--gray);margin-bottom:40px;padding-bottom:24px;border-bottom:1px solid #e5e7eb}
+.page-meta strong{color:var(--night)}
+.intro-box{background:linear-gradient(135deg,#f0fdf4,#dcfce7);border:1px solid #bbf7d0;border-radius:var(--r-lg);padding:24px 28px;margin-bottom:40px}
+.intro-box p{font-size:15px;color:#166534;line-height:1.8}
+.intro-box strong{color:#15803d}
+h2.sec{font-family:var(--serif);font-size:20px;font-weight:800;color:var(--night);margin:40px 0 14px;padding-left:14px;border-left:4px solid var(--sky);line-height:1.3}
+p.body{font-size:14.5px;color:#374151;line-height:1.85;margin-bottom:12px}
+ul.list{list-style:none;margin:8px 0 16px;display:flex;flex-direction:column;gap:8px}
+ul.list li{font-size:14px;color:#374151;line-height:1.75;padding:10px 14px;background:#fff;border:1px solid #e5e7eb;border-radius:var(--r);display:flex;gap:10px;align-items:flex-start}
+ul.list li::before{content:'•';color:var(--sky);font-weight:900;flex-shrink:0;margin-top:2px}
+
+/* Guarantee highlight box */
+.guarantee-box{
+  background:linear-gradient(135deg,#eff6ff,#dbeafe);
+  border:2px solid #93c5fd;border-radius:var(--r-lg);
+  padding:28px;margin:20px 0;
+  display:flex;gap:16px;align-items:flex-start;
+}
+.guarantee-box-icon{font-size:36px;flex-shrink:0}
+.guarantee-box h3{font-family:var(--serif);font-size:17px;font-weight:800;color:var(--navy);margin-bottom:8px}
+.guarantee-box p{font-size:14px;color:#1e40af;line-height:1.75}
+
+/* Do / Don't boxes */
+.dos-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:16px 0}
+.dos-box{border-radius:var(--r-lg);padding:20px}
+.dos-box.do{background:#f0fdf4;border:1.5px solid #bbf7d0}
+.dos-box.dont{background:#fef2f2;border:1.5px solid #fecaca}
+.dos-box h4{font-family:var(--serif);font-size:14px;font-weight:800;margin-bottom:12px}
+.dos-box.do h4{color:#15803d}
+.dos-box.dont h4{color:#b91c1c}
+.dos-box li{font-size:13px;line-height:1.65;padding:6px 0;border-bottom:1px dashed rgba(0,0,0,0.06);display:flex;gap:8px;align-items:flex-start}
+.dos-box li:last-child{border-bottom:none}
+.dos-box.do li::before{content:'✓';color:var(--green);font-weight:900;flex-shrink:0}
+.dos-box.dont li::before{content:'✕';color:var(--red);font-weight:900;flex-shrink:0}
+
+.warning-box{background:#fef2f2;border:1.5px solid #fecaca;border-radius:var(--r);padding:16px 20px;margin:16px 0;font-size:13.5px;color:#991b1b;line-height:1.7}
+.warning-box strong{color:#7f1d1d}
+
+.contact-box{background:var(--night);border-radius:var(--r-lg);padding:28px;margin-top:40px;display:flex;gap:20px;align-items:flex-start;flex-wrap:wrap}
+.contact-box-icon{font-size:32px;flex-shrink:0}
+.contact-box h3{font-family:var(--serif);font-size:18px;font-weight:800;color:#fff;margin-bottom:10px}
+.contact-box p{font-size:13.5px;color:rgba(255,255,255,0.7);line-height:1.75}
+.contact-box a{color:var(--sky)}
+footer.page-footer{text-align:center;padding:28px 20px;border-top:1px solid #e5e7eb;font-size:12px;color:var(--gray);margin-top:40px}
+footer.page-footer a{color:var(--sky-dark);margin:0 8px}
+
+/* TOC */
+.toc{background:#fff;border:1px solid #e5e7eb;border-radius:var(--r-lg);padding:24px 28px;margin-bottom:36px}
+.toc h3{font-family:var(--serif);font-size:15px;font-weight:800;color:var(--night);margin-bottom:12px}
+.toc ol{list-style:decimal;padding-left:20px;display:flex;flex-direction:column;gap:6px}
+.toc ol li{font-size:13.5px;color:var(--sky-dark)}
+.toc ol li a{text-decoration:none;font-weight:600}
+.toc ol li a:hover{text-decoration:underline}
+
+@media (max-width:640px){.dos-grid{grid-template-columns:1fr}}
+@media (max-width:480px){
+.dos-grid{grid-template-columns:1fr}
+.page-wrap{padding:32px 14px 60px}
+.intro-box{padding:18px 16px}
+.guarantee-box{flex-direction:column;gap:12px}
+.contact-box{padding:20px 16px}
+}</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="brand">❄️ AirClean Pro</a>
+    <a href="index.html" class="back-link">← กลับหน้าหลัก</a>
+  </div>
+</header>
+
+<main class="page-wrap">
+
+  <h1 class="page-title">ข้อกำหนดการใช้บริการ</h1>
+  <p class="page-meta">
+    <strong>มีผลบังคับใช้:</strong> 1 มกราคม 2568 &nbsp;|&nbsp;
+    <strong>ปรับปรุงล่าสุด:</strong> 1 มกราคม 2568 &nbsp;|&nbsp;
+    <strong>เวอร์ชัน:</strong> 1.0
+  </p>
+
+  <div class="intro-box">
+    <p>✅ โปรดอ่านข้อกำหนดนี้อย่างละเอียดก่อนใช้บริการ AirClean Pro การจองหรือใช้บริการของเราถือว่าท่านได้อ่านและยอมรับข้อกำหนดทั้งหมดในเอกสารนี้ <strong>หากท่านไม่ยอมรับข้อกำหนดเหล่านี้ กรุณาอย่าใช้บริการ</strong></p>
+  </div>
+
+  <div class="toc">
+    <h3>📋 สารบัญ</h3>
+    <ol>
+      <li><a href="#s1">ข้อมูลบริษัท</a></li>
+      <li><a href="#s2">ขอบเขตบริการ</a></li>
+      <li><a href="#s3">การจองและยืนยัน</a></li>
+      <li><a href="#s4">ราคาและการชำระเงิน</a></li>
+      <li><a href="#s5">การยกเลิกและขอเงินคืน</a></li>
+      <li><a href="#s6">การรับประกัน</a></li>
+      <li><a href="#s7">ความรับผิดชอบของลูกค้า</a></li>
+      <li><a href="#s8">ข้อจำกัดความรับผิด</a></li>
+      <li><a href="#s9">ทรัพย์สินทางปัญญา</a></li>
+      <li><a href="#s10">การติดต่อและข้อพิพาท</a></li>
+    </ol>
+  </div>
+
+  <h2 class="sec" id="s1">1. ข้อมูลบริษัท</h2>
+  <p class="body">
+    <strong>บริษัท แอร์คลีน พรีเมียม จำกัด</strong><br>
+    จดทะเบียนในประเทศไทย เลขทะเบียน 010XXXXXXXXX<br>
+    ที่อยู่: กรุงเทพมหานคร<br>
+    โทรศัพท์: 02-000-0000<br>
+    ดำเนินธุรกิจภายใต้ชื่อการค้า "AirClean Pro"
+  </p>
+
+  <h2 class="sec" id="s2">2. ขอบเขตบริการ</h2>
+  <p class="body">AirClean Pro ให้บริการล้างทำความสะอาดเครื่องปรับอากาศแบบแยกส่วน (Split Type) ในเขตกรุงเทพมหานครและปริมณฑล โดยแพ็คเกจหลักมี 3 ระดับ:</p>
+  <ul class="list">
+    <li><strong>Basic (฿399/เครื่อง):</strong> ล้างแรงดันสูง ทำความสะอาดฟิลเตอร์ เช็ดตัวเครื่อง รับประกัน 30 วัน</li>
+    <li><strong>Standard (฿649/เครื่อง):</strong> ทุกอย่างใน Basic + น้ำยา Medical Grade + ล้างคอยล์เย็นเจาะลึก + ถ่ายรูป Before/After</li>
+    <li><strong>Premium (฿1,099/เครื่อง):</strong> ทุกอย่างใน Standard + ล้างยูนิตนอก + ตรวจวัดค่าความเย็น + รายงาน PDF</li>
+  </ul>
+  <p class="body">ราคาข้างต้นสำหรับเครื่องปรับอากาศไม่เกิน 24,000 BTU บริการนอกเขตกรุงเทพมหานครมีค่าเดินทางเพิ่มเติม</p>
+
+  <h2 class="sec" id="s3">3. การจองและยืนยัน</h2>
+  <ul class="list">
+    <li>การจองสมบูรณ์เมื่อได้รับการยืนยันจากเจ้าหน้าที่ผ่านโทรศัพท์หรือ Line ภายใน 5 นาที</li>
+    <li>ลูกค้าต้องให้ที่อยู่ที่ถูกต้องและสามารถเข้าถึงได้ในวันที่นัดหมาย</li>
+    <li>ต้องมีผู้ใหญ่อายุ 18 ปีขึ้นไปอยู่ที่บ้านตลอดระยะเวลาการให้บริการ</li>
+    <li>AirClean Pro ขอสงวนสิทธิ์ปฏิเสธการให้บริการในกรณีที่เห็นว่าไม่ปลอดภัยหรือไม่เหมาะสม</li>
+  </ul>
+
+  <h2 class="sec" id="s4">4. ราคาและการชำระเงิน</h2>
+  <ul class="list">
+    <li>ราคาที่แสดงเป็นราคาสุดท้าย ไม่มีค่าใช้จ่ายซ่อนเร้น (ยกเว้นค่าเดินทางนอกเขต)</li>
+    <li>ชำระเงินหลังงานเสร็จสมบูรณ์เท่านั้น ไม่มีการเรียกเก็บล่วงหน้า</li>
+    <li>รับชำระด้วย: เงินสด, โอนธนาคาร, QR Code PromptPay</li>
+    <li>ราคาโปรโมชั่นมีระยะเวลาจำกัด ราคาที่ยืนยันในการจองจะถูกล็อคไว้</li>
+    <li>ค่าอะไหล่หรืองานซ่อมเพิ่มเติม (หากต้องการ) จะแจ้งราคาและรอการอนุมัติก่อนดำเนินการ</li>
+  </ul>
+
+  <h2 class="sec" id="s5">5. การยกเลิกและขอเงินคืน</h2>
+  <div class="dos-grid">
+    <div class="dos-box do">
+      <h4>✅ กรณีที่คืนเงินเต็มจำนวน</h4>
+      <ul>
+        <li>ยกเลิกก่อนวันนัดหมายอย่างน้อย 24 ชั่วโมง</li>
+        <li>ช่างมาถึงช้ากว่านัดมากกว่า 1 ชั่วโมง และลูกค้าไม่ต้องการรอ</li>
+        <li>งานไม่ผ่านการตรวจสอบมาตรฐานภายใน 30 วัน</li>
+      </ul>
+    </div>
+    <div class="dos-box dont">
+      <h4>✕ กรณีที่ไม่คืนเงิน</h4>
+      <ul>
+        <li>ยกเลิกน้อยกว่า 24 ชั่วโมงก่อนนัด (หักค่าบริการจริง)</li>
+        <li>ลูกค้าไม่อยู่บ้านตามนัดโดยไม่แจ้งล่วงหน้า</li>
+        <li>งานสำเร็จตามมาตรฐาน แต่ลูกค้าเปลี่ยนใจ</li>
+      </ul>
+    </div>
+  </div>
+
+  <h2 class="sec" id="s6">6. การรับประกัน</h2>
+
+  <div class="guarantee-box">
+    <div class="guarantee-box-icon">🛡️</div>
+    <div>
+      <h3>รับประกัน 30 วัน — ไม่มีเงื่อนไข</h3>
+      <p>หากหลังล้างแล้วแอร์ไม่เย็นขึ้น มีกลิ่น หรืองานไม่ได้มาตรฐาน เราจะกลับมาแก้ให้ฟรี หรือคืนเงิน 100% เพียงแค่โทรแจ้งภายใน 30 วัน โดยไม่ต้องส่งหลักฐานใดๆ</p>
+    </div>
+  </div>
+
+  <p class="body">การรับประกันครอบคลุม:</p>
+  <ul class="list">
+    <li>ความเย็นของเครื่องปรับอากาศหลังล้างแล้วไม่ดีขึ้น</li>
+    <li>กลิ่นอับหรือกลิ่นไม่พึงประสงค์ยังคงอยู่</li>
+    <li>ช่างทำความเสียหายต่อทรัพย์สิน (ครอบคลุมโดยประกันภัย)</li>
+  </ul>
+
+  <div class="warning-box">
+    ⚠️ <strong>ข้อยกเว้นการรับประกัน:</strong> ปัญหาที่เกิดจากการใช้งานที่ผิดปกติ ไฟฟ้าขัดข้อง ความเสียหายจากภัยธรรมชาติ หรือการดัดแปลงเครื่องโดยบุคคลอื่นหลังการให้บริการ ไม่อยู่ในขอบเขตการรับประกัน
+  </div>
+
+  <h2 class="sec" id="s7">7. ความรับผิดชอบของลูกค้า</h2>
+  <ul class="list">
+    <li>จัดเตรียมพื้นที่รอบเครื่องปรับอากาศให้โล่งและเข้าถึงได้</li>
+    <li>แจ้งข้อมูลเครื่องที่ถูกต้อง ประเภท BTU และสภาพเครื่องก่อนบริการ</li>
+    <li>แจ้งปัญหาหรือความกังวลก่อนช่างเริ่มงาน</li>
+    <li>ตรวจสอบผลงานร่วมกับช่างก่อนชำระเงิน</li>
+    <li>ไม่ให้ข้อมูลเท็จหรือพยายามฉ้อโกงระบบรับประกัน</li>
+  </ul>
+
+  <h2 class="sec" id="s8">8. ข้อจำกัดความรับผิด</h2>
+  <p class="body">AirClean Pro จะไม่รับผิดชอบต่อความเสียหายที่เกิดจาก:</p>
+  <ul class="list">
+    <li>ความเสียหายทางอ้อมหรือผลสืบเนื่องที่ไม่สามารถคาดการณ์ได้</li>
+    <li>เครื่องปรับอากาศที่มีปัญหาทางกลไก ไฟฟ้า หรือสารทำความเย็นอยู่ก่อนแล้ว</li>
+    <li>การขัดข้องของบริการจาก Force Majeure (ภัยพิบัติ, โรคระบาด, คำสั่งรัฐ)</li>
+  </ul>
+  <p class="body">ความรับผิดสูงสุดของ AirClean Pro จำกัดเฉพาะค่าบริการที่ท่านชำระให้บริการที่เป็นปัญหานั้นเท่านั้น</p>
+
+  <h2 class="sec" id="s9">9. ทรัพย์สินทางปัญญา</h2>
+  <p class="body">เนื้อหาทั้งหมดบนเว็บไซต์นี้ ได้แก่ ข้อความ รูปภาพ โลโก้ และการออกแบบ เป็นทรัพย์สินของบริษัท แอร์คลีน พรีเมียม จำกัด ห้ามทำซ้ำ ดัดแปลง หรือเผยแพร่โดยไม่ได้รับอนุญาตเป็นลายลักษณ์อักษร</p>
+
+  <h2 class="sec" id="s10">10. การระงับข้อพิพาทและกฎหมายที่ใช้บังคับ</h2>
+  <p class="body">ข้อกำหนดนี้อยู่ภายใต้กฎหมายไทย หากเกิดข้อพิพาท เราจะพยายามแก้ไขด้วยการเจรจาตรงก่อน หากไม่สามารถตกลงกันได้ ให้ใช้กระบวนการอนุญาโตตุลาการหรือศาลที่มีอำนาจพิจารณาในเขตกรุงเทพมหานคร</p>
+
+  <div class="contact-box">
+    <div class="contact-box-icon">📬</div>
+    <div>
+      <h3>ติดต่อเรา</h3>
+      <p>
+        บริษัท แอร์คลีน พรีเมียม จำกัด<br>
+        โทรศัพท์: <a href="tel:+6620000000">02-000-0000</a> &nbsp;|&nbsp;
+        Line: <a href="https://lin.ee/aircleaner">@aircleaner</a><br>
+        เวลาทำการ: วันจันทร์–อาทิตย์ 08:00–20:00 น.<br><br>
+        หากมีข้อสงสัยเกี่ยวกับข้อกำหนดเหล่านี้ ติดต่อเราได้ตลอดเวลา ยินดีชี้แจง
+      </p>
+    </div>
+  </div>
+
+</main>
+
+<footer class="page-footer">
+  © 2025 AirClean Pro. All rights reserved. &nbsp;|&nbsp;
+  <a href="index.html">หน้าหลัก</a>
+  <a href="privacy-policy.html">นโยบายความเป็นส่วนตัว</a>
+  <a href="cookie-policy.html">นโยบายคุกกี้</a>
+</footer>
+
+</body>
+</html>
